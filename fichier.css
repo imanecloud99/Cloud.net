@@ -1,0 +1,25 @@
+body{
+   background-color: azure;
+   background-image: linear-gradient(to left,#99a8ac,azure);
+}
+
+p{
+    padding-left: 180px;
+    color: rgb(5, 46, 109);
+    font-size: 3.3em;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    padding-top: 50px;
+    font-family: 'Times New Roman', serif
+    
+}
+
+.form1{
+    font-size: 30px;
+}
+.img{
+    width: 1300px;
+    height: 270px;
+    border-radius: 2em;
+    
+}

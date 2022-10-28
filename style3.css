@@ -1,0 +1,147 @@
+
+a:link{
+    text-decoration: none;
+    color: black;
+     
+}
+.el:visited{
+    color: black;
+}
+.el:hover{
+    color:#1d67f0;
+}
+
+
+section{
+    background-image: linear-gradient(to right,#99a8ac,#dff9ff);
+    font-family: "Comic Sans MS";
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 230px;
+    margin-right: 220px;
+    letter-spacing: 1.2px;
+    border-top-left-radius: 2px;
+    padding-bottom: 55px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.titre{
+    padding-left: 18px;
+    color: black;
+    font-size: 3.3em;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#mod1{
+    color: black;
+    background-image: linear-gradient(to right,#adbac4,#9ac1ca);
+    display: none;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size:1.3em ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+   
+}
+
+#mod2{
+    color: black;
+    background-image: linear-gradient(to right,#adbac4,#9ac1ca);
+    display: none;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size:1.3em ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+   
+}
+
+#mod3{
+    color: black;
+    background-image: linear-gradient(to right,#adbac4,#9ac1ca);
+    display: none;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size:1.3em ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+   
+}
+#mod4{
+    color: black;
+    background-image: linear-gradient(to right,#adbac4,#9ac1ca);
+    display: none;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size:1.3em ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+   
+}
+
+
+
+
+
+
+    
+    
+
+.mod{
+    font-size: 1.5em;
+    color:#dff9ff;
+    border-radius: 1.1em;
+    padding: 17px;
+    width:100% ;
+    background-image: linear-gradient(to top,#1d67f0,#4193a1);
+     
+}
+.mat{
+    background-image: linear-gradient(to right,#adbac4,#9ac1ca);
+    font-weight: bolder;
+    border: 1px solid;
+  
+}
+
+.liste{
+    list-style-image: url(icone.png);
+}
+.el{
+    
+    font-weight:lighter;
+    
+}
+#mat1{
+    display: none;
+}
+#mat2{
+    display: none;
+}
+#mat3{
+    display: none;
+}
+#mat1{
+    display: none;
+}
+
+.connexion{
+    font-weight: normal;
+    font-size: smaller;
+    background-color: #99a8ac;
+    float: inline-end;
+    border-width: 2em;
+    position: relative;
+    
+    margin-left:0 auto;
+    width: 100%;
+}

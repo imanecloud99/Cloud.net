@@ -1,0 +1,30 @@
+BASE DE DONNEES:
+nom: "database"
+username : "root"
+password : ""
+
+IL FAUT CHANGER CES DONNES DANS LES FICHIERS .PHP EN FONCTION DE CE QUE VOUS AVEZ SUR VOTRE MACHINE.
+
+----
+
+Pour importer la base de données:
+	- va sur wampserver ou mamp, puis phpmyadmin.
+	- "Importer", choisir fichier "database.sql"
+Sinon, créer manuellement la base de données et la nommér: database
+
+Créer les tables manuellement avec les codes suivants:
+
+CREATE TABLE IF NOT EXISTS `data` (
+  `userId` int(11) DEFAULT NULL,
+  `date` varchar(10) COLLATE latin1_general_cs DEFAULT NULL,
+  `content` varchar(1000) COLLATE latin1_general_cs DEFAULT NULL,
+  `type` varchar(20) COLLATE latin1_general_cs DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_cs;
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `userid` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(60) COLLATE latin1_general_cs NOT NULL,
+  `mdp` varchar(20) COLLATE latin1_general_cs NOT NULL,
+  `nompre` varchar(50) COLLATE latin1_general_cs NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_general_cs;

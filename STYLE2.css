@@ -1,0 +1,145 @@
+section{
+    color: black;
+    background-image: linear-gradient(to right,#99a8ac,#dff9ff);
+    font-family: "Comic Sans MS";
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-left: 200px;
+    margin-right: 220px;
+    letter-spacing: 1.2px;
+    border-top-left-radius: 20px;
+    padding-bottom: 55px;
+    margin-bottom: 30px;
+}
+body{
+    padding-bottom: 50px;
+}
+.cloud{
+    float: right;
+    width: 130px;
+    border-radius: 1.2em;
+    padding-top: 20px;
+}
+.titre{
+	color: #dfe7f1;
+	
+	
+	padding-left: 20px;
+
+	font-size: 8em;
+    font-family:"Brush Script MT";
+}
+.cursus{
+    padding-left: 120px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    
+}
+a:link{
+    text-decoration: none;
+    color: wheat;
+  
+    
+}
+
+
+.ine{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 180px;
+    font-size: 3.3em;
+    color: azure;
+   
+   
+}	
+
+.ine1{
+    padding-right: 25px;
+    background-image:linear-gradient(to top,#2521df ,rgb(116, 155, 201));
+    border-radius: 2em;
+    padding-left: 20px;
+    font-weight:bolder ;
+    font-style: italic;
+    
+}
+.ine2{
+    padding-right: 25px;
+    background-image:linear-gradient(to top,#2521df ,rgb(116, 155, 201));
+    border-radius: 2em;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.ine3{
+    padding-right: 25px;
+    background-image:linear-gradient(to top,#2521df ,rgb(116, 155, 201));
+    font-style: italic;
+    border-radius: 2em;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.INE:link{
+	text-decoration: none;
+	color: wheat;
+	font-style: italic;
+	text-shadow: 2px 2px 4px black;
+}
+.l:link{
+	text-decoration: none;
+	color: wheat;
+	font-style: italic;
+	text-shadow: 2px 2px 4px black;
+}
+
+.INE:visited{
+	color:wheat;
+}
+.INE:hover{
+    color: rgb(99, 187, 209);
+}
+
+.l:hover{
+	color:blue;
+
+}
+
+  
+
+	
+
+
+.contact{
+	padding-left: 20px;
+	color:wheat;
+	font-size: 20px;
+    font-family: "Comic Sans MS";
+    padding-top: 5px;
+	
+}
+
+
+.questions{
+	padding-right: 20px;
+	color: wheat;
+	font-size: 20px;
+    font-family: "Comic Sans MS";
+    padding-top: 5px;
+
+	
+}#carouselExemple {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 8px;
+   
+ 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.ine1::after{
+    color: wheat;
+}
